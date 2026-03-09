@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html lang="Pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio FSDT</title>
-</head>
-<body>
-    <div class="container"></div>
-    <h1>POSTECH - FULLSTACK</h1>
-    <P class="subtitle">Desafio aula inaugutal</P>
-    <div class="card">
-        <h2>Informações do grupo</h2>
-        
-    </div>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desafio FSDT</title>
+        <link rel="stylesheet" href="src/style.css">  
+    </head>
+    <body>
+        <div class="container">
+            <h1>POSTECH - FULLSTACK</h1>
+            <P class="subtitle">Desafio aula inaugutal</P>
+            <div class="card">
+                <h2>Informações do grupo</h2>
+                <form id="groupForm">
+                    <input type="text" name="name1" placeholder="Nome"class="name">
+                    <input type="text" name="name2" placeholder="Nome"class="name">
+                    <input type="text" name="name3" placeholder="Nome"class="name">
+                    <input type="text" name="name4" placeholder="Nome"class="name">
+                    <input type="text" name="name5" placeholder="Nome"class="name">
+                    <textarea id="message" name="message" placeholder="Historia do grupo"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>        
+            </div>
+        </div>
+        <script  src="src/script.js"></script>
+    </body>
 </html>
